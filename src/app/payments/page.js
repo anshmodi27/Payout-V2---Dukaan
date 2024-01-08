@@ -7,8 +7,8 @@ import { Orders, Total } from "../constant/contant";
 import * as XLSX from "xlsx";
 import { saveAs } from "file-saver";
 
-const page = () => {
-  // Update the header text for this specific page
+const Page = () => {
+  // Update the header text for this specific Page
   const [, setHeaderText] = useAtom(headerTextAtom);
   useEffect(() => {
     setHeaderText("Payments");
@@ -454,4 +454,4 @@ const page = () => {
     </>
   );
 };
-export default page;
+export default Page;

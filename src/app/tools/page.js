@@ -4,10 +4,10 @@ import { useAtom } from "jotai";
 import { headerTextAtom } from "../components/Navbar";
 import { useEffect } from "react";
 
-const page = () => {
+const Page = () => {
   const [, setHeaderText] = useAtom(headerTextAtom);
 
-  // Update the header text for this specific page
+  // Update the header text for this specific Page
   useEffect(() => {
     setHeaderText("Tools");
     return () => {
@@ -17,4 +17,4 @@ const page = () => {
   }, [setHeaderText]);
   return <div> Hello from Tools</div>;
 };
-export default page;
+export default Page;
