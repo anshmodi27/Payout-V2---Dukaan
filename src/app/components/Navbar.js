@@ -6,7 +6,7 @@ export const headerTextAtom = atom("Home");
 const Navbar = () => {
   const [headerText] = useAtom(headerTextAtom);
   return (
-    <div className="sticky top-0 bg-white z-50 ml-[15%] w-[85%] border-b border-[#D9D9D9]">
+    <div className="sticky top-0 bg-white z-50 ml-[16%] w-[85%] border-b border-[#D9D9D9]">
       <div className="flex items-center justify-between py-5 px-10">
         {/* Header Text */}
         <div className="text-[#1A181E] flex items-center justify-center gap-x-5">

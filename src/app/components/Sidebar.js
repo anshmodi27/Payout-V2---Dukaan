@@ -148,7 +148,7 @@ const SideBarList = [
 const Sidebar = () => {
   const pathName = usePathname();
   return (
-    <div className="w-[15%] h-full bg-[#1E2640] fixed left-0 px-4 flex flex-col items-start justify-between gap-y-4 pl-5 py-4">
+    <div className="w-[16%] h-full bg-[#1E2640] fixed left-0 px-4 flex flex-col items-start justify-between gap-y-4 pl-5 py-4">
       <div className="flex flex-col items-start justify-start gap-y-4">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center justify-start gap-x-3 w-full">

@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <div className="hidden lg:block">
           <Sidebar />
           <Navbar />
-          <div className="ml-[15%] px-10 mt-5">{children}</div>
+          <div className="ml-[16%] px-10 mt-5">{children}</div>
         </div>
       </body>
     </html>
